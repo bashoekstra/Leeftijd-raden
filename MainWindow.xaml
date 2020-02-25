@@ -1,0 +1,19 @@
+﻿<Window x:Class="Guesser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Leeftijd raden" Height="165" Width="337">
+    <Grid>
+        <Button Content="GOED" HorizontalAlignment="Left"
+                Margin="36,87,0,0" VerticalAlignment="Top" Width="75"
+                Name="enterButton" Click="correctButton_Click"/>
+        <Button Content="FOUT" HorizontalAlignment="Left"
+                Margin="214,87,0,0" VerticalAlignment="Top" Width="75"
+                Name="leaveButton" Click="wrongButton_Click"/>
+        <Label Content="guessLabel" HorizontalAlignment="Left"
+               Margin="147,49,0,0" VerticalAlignment="Top"
+               Name="guessLabel" />
+        <TextBlock HorizontalAlignment="Left" Margin="36,17,0,0"
+                   Text="De computer raad hoe oud je bent:"
+                   VerticalAlignment="Top" />
+    </Grid>
+</Window>
